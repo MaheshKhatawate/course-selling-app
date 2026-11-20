@@ -4,7 +4,7 @@ Fieldwork is a course-selling demo built with Next.js, Express, and MongoDB. Vis
 
 ## Features
 
-- **Course catalog.** Browse on desktop or mobile, search titles and descriptions, filter by category, and view course details and USD prices.
+- **Course catalog.** Browse on desktop or mobile, search titles and descriptions, filter by category, and view course details and prices in Indian rupees (INR).
 - **Learner and instructor accounts.** Register, sign in, and sign out under either role. Sessions survive page refreshes in the same tab and expire after eight hours.
 - **Simulated purchases.** Enroll in a course without entering payment details. Each learner can enroll in a given course once.
 - **Learner library.** View and search enrolled courses, including courses an instructor has since removed from the catalog.

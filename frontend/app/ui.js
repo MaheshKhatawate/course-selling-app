@@ -3,7 +3,7 @@ import { useEffect, useRef } from "react";
 
 export const categories = ["Development", "Design", "Branding", "Other"];
 const defaults = { Development: "creative-coding", Design: "interface-design", Branding: "visual-identity" };
-export const money = value => new Intl.NumberFormat("en-US", { style: "currency", currency: "USD", maximumFractionDigits: Number.isInteger(value) ? 0 : 2 }).format(value);
+export const money = value => new Intl.NumberFormat("en-IN", { style: "currency", currency: "INR", maximumFractionDigits: Number.isInteger(value) ? 0 : 2 }).format(value);
 
 export function Cover({ course }) {
     const fallback = "/covers/" + (defaults[course.category] || "creative-coding") + ".jpg";
